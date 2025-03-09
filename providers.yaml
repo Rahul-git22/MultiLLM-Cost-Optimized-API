@@ -1,0 +1,13 @@
+providers:
+  - name: groq
+    endpoint: "https://api.groq.com/openai/v1/chat/completions"
+    priority: 2
+    cost_per_1k_tokens: 0.002
+    api_key: "--------------------------------------------"
+    model: "deepseek-r1-distill-qwen-32b"
+  - name: groq
+    endpoint: "https://api.groq.com/openai/v1/chat/completions"
+    priority: 1
+    cost_per_1k_tokens: 0.002
+    api_key: "-------------------------------------------------"
+    model: "llama-3.1-8b-instant"
