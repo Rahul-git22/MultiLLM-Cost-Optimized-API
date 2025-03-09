@@ -91,7 +91,7 @@ You can use Python with the requests library to send a request:
 import requests
 import json
 
-url = "[http://127.0.0.1:8000/generate](http://127.0.0.1:8000/generate)"
+url = "[http://127.0.0.1:8000/generate]"
 headers = {"Content-Type": "application/json"}
 data = {"prompt": "Explain quantum computing"}
 
